@@ -1,0 +1,385 @@
+*
+{
+   padding: 0;
+   margin: 0;
+
+}
+
+.header
+
+        {
+        
+           height: 100%;
+        
+           background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(photos/lake.jpg);
+           background-size:  cover;
+           background-position: center;
+           background-attachment: fixed;
+           padding-top: 25px;
+           text-align: center;
+           color: rgb(250, 250, 250);
+        }
+        .header img
+        
+        {
+        
+        width: 125px;
+        
+        float: left;
+        padding-left: 8px;
+        
+        }
+        
+        .login-btn
+        {
+        border: 1px solid #fff;
+        width: 100px;
+        
+        padding: 8px 0;
+        
+        outline: none !important;
+        
+        border: 2px solid #fff;
+        
+        border-radius: 50px;
+        
+        background: transparent;
+        
+        color: linear-gradient(#00ff7e, #1f3d90);
+        
+        float: right;
+        font-family: "montserrat";
+        cursor: pointer;
+        margin: 5px;
+        transition: 0.8s;
+        position: relative;
+        
+        }
+        .login-btn
+        {
+            color: #fff ;
+        }
+        .login-btn:hover {
+            color: transparent;
+        } 
+
+.header h1
+{
+    padding-top: 150px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p
+{
+    margin: 18px;
+    font-size: 20px;
+
+    font-style: italic;
+}
+.search-box{
+
+   
+    position: absolute;
+    
+    top: 70%;
+    
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    
+    background: #fff ;
+    
+    height: 40px;
+    
+    border-radius: 40px;
+    
+    padding: 10px;
+    
+}
+    
+    .search-box:hover > .search-txt
+    {
+        width: 240px;
+        padding: 0 6px;
+        
+    }
+    .search-box:hover > .search-btn
+    {
+        background: #fff;
+        
+       
+    }
+    .search-btn{
+    
+    color: #e84118;
+    
+    float: right;
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 50%;
+
+    background: linear-gradient(#00ff7e, #1f3d90);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.search-txt
+ {
+
+  border:none; 
+  background: none; 
+  outline: none;
+  float: left;
+  padding: 0;
+  color:#2f3640;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+ 
+
+}
+.features
+{
+    padding: 100px 0 ;
+     background-image: linear-gradient(rgba(0,0,0.6),rgba(0,0,0.6))url(photos/singapore.jpg);
+}
+.h2
+{
+    text-align: center;
+    padding-bottom: 30 px ;
+}
+.images img
+{ width: 25%;
+   height: 50%;
+}
+.price
+{
+    width:50px;
+    height:50 px;
+    background: #ff5722;
+    color:#fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10 px;
+    box-shadow: 0 0 10 px 1 px rgba(37, 73, 214, 0.18 );
+    position: absolute;
+    left: 20 ps;
+    bottom: -50 px ;
+}
+.images{
+    position: relative;
+}
+.rating
+{
+    padding: 3 px;
+    float: right;
+    background: #fff;
+     bottom: -1 px;
+     right: 0;
+     position: absolute;
+}
+.features.features
+{
+     font-size: 15 px;
+     color: #ff5722;
+}
+.feature-details
+{
+      padding: 20px;
+      text-align: justify;
+}
+.feature-details h4
+{
+     font-weight: 600;
+     margin-top: 20 px;
+}
+.feature-details.fa
+{
+    margin-right: 5px;
+}
+.feature-box
+{
+    box-shadow: 0 0 10px rgba(37,73,214,0.18);
+    margin-bottom: 30 px;
+}
+.gallery
+{
+    padding: 100px 0;
+    padding-top: 100px;
+        
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(photos/premium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1
+{    
+    color: #fff;
+     text-align: center;    
+     padding-top: 20px; 
+     font-size: 40px;
+} 
+.container
+{
+    padding-top: 40px;
+}   
+.gallery-box img
+
+{
+
+width: 30%;
+left: 250px;
+padding-left: 10px 0;
+border-radius: 10px;
+cursor: pointer;
+position: relative;
+right: 150px;
+transition: 1s;
+
+}
+
+.gallery-box img:hover
+
+{
+
+transform: scale(1.1);
+
+}
+
+
+
+.gallery-box
+{
+    position: relative;
+    right: 100px;
+    margin-bottom: 28px;
+}
+
+.gallery-box-2 img
+
+{
+   
+height: 44.5%;
+width: 30%;
+left: 600px;
+padding-left: 10px 0;
+border-radius: 10px;
+cursor: pointer;
+position: relative;
+
+right: 150px;
+transition: 1s;
+margin-bottom: 28px;
+
+}
+
+.gallery-box-2 img:hover
+
+{
+
+transform: scale(1.1);
+
+}
+
+
+
+.banner
+{   
+    height: 80%;
+    background-image: url(photos/trek.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+.banner-highlights
+{
+    padding: 80px 0;
+
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+
+    .premium-btn
+    
+    {
+        border: 1px linear-gradient(#00ff7e, #1f3d90);
+        width: 100px;
+        right: 45%;
+        
+        padding: 5px 0;
+        
+        outline: none !important;
+        
+        border: 2px solid linear-gradient(#00ff7e, #1f3d90);
+        
+        border-radius: 50px;
+        
+        background:linear-gradient(#00ff7e, #1f3d90) ;
+        
+        color:linear-gradient(#00ff7e, #1f3d90) ;
+        
+        float: right;
+        font-family: "montserrat";
+        cursor: pointer;
+        margin: 5px;
+        transition: 0.8s;
+        position: relative;
+        
+
+        
+        }
+        .premium-btn
+        {
+            color: linear-gradient(#00ff7e, #1f3d90);
+        }
+        .premium-btn:hover {
+            color: black;
+        }
+        .users-feedback
+        {
+            padding: 100px 0;
+        }
+        .user-review h1
+        {
+            color:black;
+        }
+        .user-review
+        {    
+            text-align: center;
+            box-shadow: 0 0 10px 0 rgba(0,0,100,0.2) ;
+            padding-bottom: 50px;
+        }
+        .user-review p
+        {
+            padding: 50px 10px 10px 10px;
+            text-align: center;
+        }
+        .users-feedback img
+        {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            position: relative;
+            margin: -30px 0 20px 40px;
+        }
+        .user-review p::before
+        {  text-align: center;
+            content: '\201d';
+            display: block;
+            position: absolute;
+            font-size: 100px;
+            color: #6495ed;
+            font-family: sans-serif;
+            left:44%;
+            top: -20px;
+            
+        }
